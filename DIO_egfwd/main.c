@@ -9,8 +9,8 @@
 
 int main(){
 
-	DIO_init(PORT_A,4,OUTPUT);
-	DIO_write(PORT_A,4,HIGH);
+	DIO_init(PORT_A,3,OUTPUT);
+	DIO_write(PORT_A,3,HIGH);
 	while(1){
 
 }
